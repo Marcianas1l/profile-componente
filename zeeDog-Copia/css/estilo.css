@@ -1,0 +1,84 @@
+
+/*cabecalho INICIO*/
+#header {
+    background-color:#C5C5C5;  
+    width: 100%;
+    margin: -8px auto;
+    display: flex;
+    justify-content: center;
+}
+#caminhao {
+    width: 24px;
+    height: 16.3px;
+    margin-top: 15px;
+}
+.texto {
+    color: #fff;
+    font-size:15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: 'futura-pt', sans-serif;
+}
+
+#logo {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.menu-container {
+  width: 100%;
+  display: flex;
+  background-color: darkgray;
+}
+.menu-esquerda {
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+/*Conteudo do menu CACHORROS*/
+
+/*Conteudo do menu ACESSORIOS*/
+.acessorios ul {
+  text-transform: capitalize;
+}
+.menu-container li {
+  list-style: none;
+  background-color: darkorange;
+  margin-right: -10px;
+}
+.menu-container .menu-esquerda {
+  display: flex;
+}
+
+/*Alinhamento dos submenu
+.menu-esquerda .acessorios {
+  margin-left: -40px;
+}*/
+.menu-esquerda .sub-menu {
+  margin-left: -40px;
+}
+/*--------------------------*/
+/*Ocultação do sub-menu*/
+.menu-esquerda .acessorios {
+  
+  display:none;
+}
+/*Tornando visível o submenu*/
+.cachorros:hover .acessorios {
+  display: inline;
+}
+.menu-container .menu-direita {
+  margin-left: 350px;
+}
+/*posicionamento da imagem MENU CACHORROS*/
+.cachorros li img {
+  padding-left: 800px;
+  padding-top: 100px;
+}

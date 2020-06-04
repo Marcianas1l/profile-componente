@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container h1, h2 {
+  text-transform: uppercase;
+}
+.container .esquerda {
+  width: 30%;
+  height: 600px;
+  padding-left: 10px;
+  padding-right: 200px;
+ 
+}
+.container .esquerda p {
+  color: #52575c
+}
+.container .direita p {
+  color: rgb(245, 236, 236);
+  position: relative;
+  top: -150px;
+  padding-bottom: 10px;
+  margin-left: -90px;
+}
+.container .esquerda h1 {
+  font:700 50px Rubik, sans-serif;
+  color: #f55873;
+}
+.container .direita {
+  width: 50%;
+  height: 600px;
+  float: right;
+  padding-left: 200px;
+  background-image: linear-gradient(#ff5a5f,#f55873);
+}
+.esquerda .gente-direita {
+  transform: rotate(270deg);
+  letter-spacing: 10px;
+  font: 700 60px/0 Rubik, sans-serif;
+  float: left;
+  color: #ff5a5f;
+  margin-left: 370px;
+  margin-top: -150px;
+}
+.direita .firme-esquerda {
+  position: relative;
+  transform: rotate(270deg);
+  letter-spacing: 10px;
+  font: 700 40px/0 Rubik, sans-serif;
+  color: #fff;
+  margin-top: 150px;
+  
+}
+
+
