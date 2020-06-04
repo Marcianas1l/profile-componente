@@ -39,7 +39,7 @@ body {
   height: 600px;
   float: right;
   padding-left: 200px;
-  background-image: linear-gradient(#ff5a5f,#f55873);
+  background: linear-gradient(to right, #ff5a5f, #f55873);
 }
 .esquerda .gente-direita {
   transform: rotate(270deg);
