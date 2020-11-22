@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    margin: 50px 70px 80px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+header #logo img {
+    width: 220px;
+    height: 66px;
+}
+
+#container-1, #container-2 {
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+}
+
+#container-1 img, #container-2 img {
+    width: 50%;
+    height: 50%;
+}
+
+#container-1 #page-home h1, #container-2 section h1 {
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container-1 #page-home input {
+    margin-top: 30px;
+}
+
+#container-1 #page-home #file, #container-3 #btn #file {
+    width: 270px;
+    height: 35px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#container-1 #page-home #enviar, #container-3 #btn #enviar {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background: #3065F8;
+    border-color: #3065F8;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*CONTAINER-2===========================================================================================*/
+#container-2 section h1 {
+    font-size: 35px;
+}
+
+#container-2 section h4 {
+    color: #1D7E58;
+}
+#container-2 section h4 span {
+    border-bottom: 1px solid #1D7E58;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container-2 section article {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+
+#container-2 section article i {
+    margin-bottom: 10px;
+}
+
+article #avatar-text {
+    display: flex;
+    margin-top: 20px;
+}
+
+article #avatar-text .icone {
+    width: 59px;
+    height: 59px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+article #avatar-text .legenda {
+    font-size: 12px;
+}
+
+/*CONTAINER-3==================================================================================================*/
+
+#container-3 {
+    margin-top: 70px;
+    padding: 100px 145px;
+    display: flex;
+    background: #585989;
+}
+
+#container-3 #msg {
+    padding-right: 350px;
+    padding-left: 30px;
+    color: #fff;
+}
+#container-3 #msg h2 {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container-3 #btn #file {
+    margin-bottom: 10px;
+}
+
+/*====================ESTILIZAÇÃO DO FOOTER=======================================*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0 100px;
+    background: #070439;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .footer-email img {
+    margin-right: 5px;
+}
+
+footer .footer-email span {
+    font-size: 18px;  
+}
+
+footer .footer-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-sobre span {
+    padding-top: 5px;
+}
+
+footer .footer-sobre a {
+    color: #fff;
+}
+
+footer .footer-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-contato span {
+    padding-top: 5px;
+}
+
+footer .footer-contato a {
+    color: #fff;
+}
+
+footer .footer-social-midia {
+    display: flex;
+}
+footer .footer-social-midia div {
+    padding-right: 10px;
+    margin: auto;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    width: 29px;
+}
+
+footer .footer-social-midia i {
+    padding: 4px;
+    border: 2px solid;
+    border-radius: 50px;
+}
