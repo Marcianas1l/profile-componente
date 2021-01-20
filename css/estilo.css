@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #B7B7B7;
+    font-family: 'Rubik', sans-serif;
+}
+img {
+    width: 100%;
+}
+body {
+    background: #0C0B0B;
+}
+
+.perfil {
+    width: 100%;
+    padding: 60px;
+    
+}
+
+.perfil-container, .container-skill {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #0F0E0E;
+    padding: 40px 70px;
+    
+}
+
+.perfil-img img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 2px solid;
+    border-radius: 50%;
+    
+}
+.perfil-user {
+    float: left;
+    display: block;
+    margin: 30px 10px;
+    font-size: 20px;
+}
+/*clear*/
+.perfil-container::before, .perfil-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.perfil-edite {
+    float: right;
+    cursor: pointer;
+    border-radius: 10%;
+    background: #181717;
+    margin: 30px 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*skill*/
+
+
+.container-skill .projetos, .container-skill .estrelas, .container-skill .seguidores {
+    content: '';
+    display: block;
+    width: 232px;
+    height: 132px;
+    background: currentColor;
+    float: left;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+/*clearfix*/
+.container-skill::before, .container-skill::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container-skill .projetos {
+    background-color: #046313;
+    
+}
+.container-skill .estrelas {
+    background-color: #044A7D;
+}
+.container-skill .seguidores {
+    background-color: #725200;
+    
+}
+.container-skill .projetos > p {
+    font-size: 40px;
+    
+}
+.container-skill .estrelas > p {
+    font-size: 40px;
+    
+}
+.container-skill .seguidores > p {
+    font-size: 40px;
+    
+}
